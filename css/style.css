@@ -7,7 +7,7 @@
 }
 
 h1,h3,h4,p{
-    color:#ff5252;
+    color:#97e7ff;
     font: bold;
 
 }
@@ -58,7 +58,7 @@ input{
 }
 
 .AllContainer{
-    background-color: #7e3a7ecb;
+    background-color: #62476388;
     max-width: 450px;
     margin: 3rem  auto 0;
     padding: 1.5rem;
@@ -114,7 +114,7 @@ input{
 }
 
 .done{
-    background-color: rgba(214, 196, 240, 0.781);
+    background-color: rgba(214, 196, 240, 0.37);
     text-decoration: line-through;
     font-style: italic;
 }

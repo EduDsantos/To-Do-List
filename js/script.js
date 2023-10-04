@@ -50,7 +50,7 @@ const toggleform = () =>{
 }
 
 const updatetodo = (text) =>{
-    const todos = document.querySelectorAll("todo");
+    const todos = document.querySelectorAll(".todo");
 
     todos.forEach((todo) => {
         let todoTitle = todo.querySelector("h3");
@@ -113,7 +113,7 @@ cancelEdit.addEventListener("click", (e) =>{
 editform.addEventListener("submit", (e) =>{
     e.preventDefault();
 
-    const editvalue = editform.value
+    const editvalue = document.querySelector("#edit-input").value;
 
     if(editvalue){
         updatetodo(editvalue)
