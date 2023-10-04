@@ -1,0 +1,121 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1,h3,h4,p{
+    color:#ff5252;
+    font: bold;
+
+}
+
+
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.d2ca4ee603c0f25969411455335f3c8d?rik=8m%2bh9uozkBxuRQ&pid=ImgRaw&r=0);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: rgb(70, 70, 114);
+    border: 2px solid rgb(70, 70, 114);;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: lightblue;
+    color:rgb(245, 100, 124);
+}
+
+button  i{
+    color:#2F1847;
+    pointer-events: none;
+}
+
+button:hover > i{
+    color:rgb(245, 100, 124);
+}
+
+input{
+    padding: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+.AllContainer{
+    background-color: #7e3a7ecb;
+    max-width: 450px;
+    margin: 3rem  auto 0;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.AllContainer  header{
+    text-align: center;
+    border-bottom: 1px solid #2F1847;
+    padding: 0 1rem;
+}
+
+#AllForm,#edit-form{
+    padding:10px;
+    border-bottom: 1px solid #2F1847;
+}
+
+#AllForm p,
+#edit-form p {
+    padding:6px;
+    font-weight: bold;
+}
+
+.form-control{
+    display: flex;
+}
+
+.form-control input{
+    margin-right: .3rem;
+}
+#cancel-edit-btn{
+  margin: 10px;
+    
+}
+
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1rem;
+    border-bottom: #2F1847;
+    transition: .3s;
+}
+
+.todo h3{
+    flex:1;
+    font-size: 0.9rem;
+}
+
+.todo button{
+    margin-left: 0.4rem;
+}
+
+.done{
+    background-color: rgba(214, 196, 240, 0.781);
+    text-decoration: line-through;
+    font-style: italic;
+}
+
