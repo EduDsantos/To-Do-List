@@ -2,11 +2,7 @@
 const allform = document.querySelector("#AllForm");
 const allinput = document.querySelector("#AllInput");
 const editform = document.querySelector("#edit-form");
-const toolbar = document.querySelector("#toolbar");
-const search = document.querySelector("#search");
 const todoList = document.querySelector("#todo-list");
-const filter = document.querySelector("#filter");
-const filterSelect = document.querySelector("#filter-select");
 const done = document.querySelector("#todo done");
 const cancelEdit = document.querySelector("#cancel-edit-btn")
 
